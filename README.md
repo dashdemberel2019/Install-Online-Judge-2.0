@@ -14,7 +14,7 @@ docker-compose up -d
 
 # local
 
-sudo lsof -i tcp:80 -s tcp:listen
+sudo lsof -i tcp:80 -s tcp:listen  
 sudo lsof -t -i tcp:80 -s tcp:listen | sudo xargs kill
 
 
