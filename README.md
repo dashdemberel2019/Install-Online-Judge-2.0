@@ -32,10 +32,10 @@ pen source online judge based on Vue, Django and Docker.
  System: Ubuntu 18.04 LTS
  Install the necessary dependencies
 
-sudo apt-get update
-sudo apt-get install -y vim python3-pip curl git
-pip3 install --upgrade pip
-pip install docker-compose
+sudo apt-get update  
+sudo apt-get install -y vim python3-pip curl git  
+pip3 install --upgrade pip  
+pip install docker-compose  
 # Install Docker
 
  Install using script: sudo curl -sSL get.docker.com | sh
@@ -45,10 +45,10 @@ pip install docker-compose
  Install
 Please select a location with some surplus disk space and run the following command:
 
-git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy
-Start service
+git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy  
+Start service 
 
-docker-compose up -d
+docker-compose up -d  
 According to the network speed, the setup can be completed automatically in about 5 to 30 minutes without manual intervention.
 
 Wait for the command execution to complete, and then run docker ps -a. When you see that the status of all the containers does not have unhealthy or Exited (x) xxx, it means OnlineJudge has started successfully.
