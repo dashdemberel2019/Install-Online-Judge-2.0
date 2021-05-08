@@ -28,9 +28,9 @@ pen source online judge based on Vue, Django and Docker.
 # Way 2
 ##  Qingdao-University-OnlineJudge install
 
-# Environmental preparation (Linux)
-# System: Ubuntu 18.04 LTS
-# Install the necessary dependencies
+ Environmental preparation (Linux)
+ System: Ubuntu 18.04 LTS
+ Install the necessary dependencies
 
 sudo apt-get update
 sudo apt-get install -y vim python3-pip curl git
@@ -38,11 +38,11 @@ pip3 install --upgrade pip
 pip install docker-compose
 # Install Docker
 
-# Install using script: sudo curl -sSL get.docker.com | sh
+ Install using script: sudo curl -sSL get.docker.com | sh
 
-# Other installation methods: https://docs.docker.com/install/
+ Other installation methods: https://docs.docker.com/install/
 
-# Install
+ Install
 Please select a location with some surplus disk space and run the following command:
 
 git clone -b 2.0 https://github.com/QingdaoU/OnlineJudgeDeploy.git && cd OnlineJudgeDeploy
