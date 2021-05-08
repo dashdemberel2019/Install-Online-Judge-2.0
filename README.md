@@ -1,5 +1,6 @@
-## Орги хувилбар
-# install Docker on Ubuntu
+# Way 1 
+
+# install Docker on Ubuntu - Орги хувилбар
 
 sudo apt update  
 sudo apt upgrade  
@@ -24,4 +25,6 @@ sudo lsof -t -i tcp:80 -s tcp:listen | sudo xargs kill
 pen source online judge based on Vue, Django and Docker. 
 青岛大学开源 Online Judge | QQ群 496710125 | admin@qduoj.com 
 
-## Орги хувилбар - Qingdao-University-OnlineJudge
+# Way 2
+##  Qingdao-University-OnlineJudge install
+
